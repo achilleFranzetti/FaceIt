@@ -11,14 +11,12 @@ import UIKit
 @IBDesignable
 class FaceView: UIView {
 
-    
+    // Public API
     @IBInspectable var scale: CGFloat = 0.9
     @IBInspectable var eyesOpen: Bool = true
     @IBInspectable var lineWidth: CGFloat = 4.0
     @IBInspectable var mouthCurvature: Double = -0.1 // 1.0 is full smile and -1.0 is full frown
-    
     @IBInspectable var color: UIColor = UIColor.blue
-    
     
     private var skullRadius: CGFloat { return min(bounds.size.width, bounds.size.height) / 2 * scale }
     private var skullCenter: CGPoint { return CGPoint(x: bounds.midX, y: bounds.midY) }

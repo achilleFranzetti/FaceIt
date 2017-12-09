@@ -11,10 +11,11 @@ import UIKit
 @IBDesignable
 class FaceView: UIView {
 
+    
     @IBInspectable var scale: CGFloat = 0.9
     @IBInspectable var eyesOpen: Bool = true
-    @IBInspectable var lineWidth: CGFloat = 5.0
-    @IBInspectable var mouthCurvature: Double = -0.5 // 1.0 is full smile and -1.0 is full frown
+    @IBInspectable var lineWidth: CGFloat = 4.0
+    @IBInspectable var mouthCurvature: Double = -0.1 // 1.0 is full smile and -1.0 is full frown
     
     @IBInspectable var color: UIColor = UIColor.blue
     

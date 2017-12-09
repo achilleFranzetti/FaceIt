@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct FacialExpression {
     enum Eyes: Int {
         case open
